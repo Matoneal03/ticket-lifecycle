@@ -4,58 +4,327 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Ticket-lifecycle</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
+This tutorial outlines osTicket: ticket lifecycle examples of the open-source help desk ticketing system osTicket.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- osTicket (Help Desk Ticketing System)
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>osTicket: Ticket Lifecycle Examples Steps</h2>
+  
+- Practice creating, triaging, and solving tickets
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Support Center 
+  
+<p>
+In the browser, paste the following URL: http://localhost/osTicket/ <img src="https://imgur.com/3Dl56dd.png">
+</p>
+<p>
+  
+- Sev-A Example (Grace Period: 1 hour, Schedule: 24/7) - Entire Mobile/Online Banking System Is Down 
 
-<h2>Installation Steps</h2>
+- Open a New Ticket
+  
+<p>
+Click the  “Open a New Ticket” button. <img src="https://imgur.com/E9ZGBC9.png">
+</p>
+<p>
+
+- End User (Customer) Contact Information
+  
+<p> 
+In the Email Address section, add End User (customer) Karen’s email address: "Karen@osticket.com." <img src="https://imgur.com/X6JFWe3.png">
+</p>
+<p>
+
+- Business Critical Outage
+  
+<p>
+Select “Business Critical Outage” from the Help Topic drop down menu. <img src="https://imgur.com/npZy9Ub.png">
+</p>
+<p>
+
+- Create a Ticket
 
 <p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click the Create Ticket button. <img src="https://imgur.com/Q0D4h23.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
+- Triage Ticket
+  
 <p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Start the ticket triage process by assigning a level of priority to Karen’s ticket. Due to the nature of this ticket, "the entire mobile/online banking system being down," it is a business impacting incident that could potentially lose money for the business. Therefore, the ticket needs to be updated from “Normal” to “Emergency.” <img src="https://imgur.com/1yCATqA.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+- Update Priority Level
+  
+<p>
+Click on “Normal” then select “Emergency” from the drop down menu. <img src="https://imgur.com/OupfWZI.png">
 </p>
-<br />
+<p>
+  
+- Optional Reason For the Update
+  
+<p>
+In the “Optional reason for the update” section, “Business impacting event” may be noted. Then, click on the Update button. <img src="https://imgur.com/JgMmLRo.png">
+</p>
+<p>
+  
+- Assigned To
+  
+<p>
+Next to "Assigned To" click on “Unassigned.” <img src="https://imgur.com/DToJ6du.png">
+</p>
+<p>
+  
+- Assignee
+  
+<p>
+Within the “Assign to a Team” pop up and from the “Assignee” drop down menu choose, “Jane Doe.” <img src="https://imgur.com/qBbCoVW.png">
+</p>
+<p>
+  
+- Assign
+  
+<p>
+Click on the Assign button. <img src="https://imgur.com/IzH90Q4.png">
+</p>
+<p>
+  
+- SLA Plan
+  
+<p>
+Update the SLA Plan by first selecting “Default SLA.” <img src="https://imgur.com/Ry1Qxet.png">
+</p>
+<p>
+  
+- Update SLA Plan
+  
+<p>
+Then, choose “SEV-A” from the SLA Plan's drop down menu. <img src="https://imgur.com/mrOzCXh.png">
+</p>
+<p>
+  
+- Optional Reason For the Update
+  
+<p>
+In the “Optional reason for the update” section, “Business impacting, critical incident” may be noted. Then, click on the Update button. <img src="https://imgur.com/yjGeUAt.png">
+</p>
+<p>
+  
+- Transfer
+  
+<p>
+Transfer the ticket by first clicking on “Support.” <img src="https://imgur.com/KNe0l37.png">
+</p>
+<p>
+  
+- System Administrators
+  
+<p>
+Choose “System Administrators” from the Department’s drop down menu. Finish the transfer by clicking the Transfer button. <img src="https://imgur.com/IgSLiUT.png">
+</p>
+<p>
+  
+- Solve the Ticket
+  
+<p>
+ Within the “Ticket Status” drop down menu, change the ticket status to “Resolved.” Then, click on the Post Reply button. <img src="https://imgur.com/pHIIGlr.png">
+</p>
+<p>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Sev-B Example (Grace Period: 4 hours, Schedule: 24/7) - the Accounting Department Needs an Adobe Reader Upgrade, Broken 
 
+- Open a New Ticket
+  
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click the “Open a New Ticket” button. <img src="https://imgur.com/LH0avz6.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+- Contact Information
+  
+<p>
+In the Email Address section, add End User (customer) Ken’s email address: "Ken@osticket.com." <img src="https://imgur.com/UKOUSrS.png">
 </p>
-<br />
+<p>
+
+- Help Topic
+  
+<p>
+Next, select “Personal Computer Issues” from the Help Topic drop down menu. <img src="https://imgur.com/c6nUdqY.png">
+</p>
+<p>
+  
+- Create Ticket
+  
+<p>
+Click the create ticket button. <img src="https://imgur.com/I4ZCxkv.png">
+</p>
+<p>
+
+- Triage Ticket
+  
+<p>
+Start the ticket triage process by assigning a level of priority to Ken’s ticket. Due to the nature of this ticket, “the accounting department’s Adobe Reader is broken and needs an upgrade,” the ticket needs to be changed from “Normal” and updated to “High.” 
+</p>
+<p>
+  
+- Priority
+  
+<p>
+Click on “Normal” to update the priority level. <img src="https://imgur.com/53grseS.png">
+</p>
+<p>
+
+- Priority Level
+ 
+<p>
+Select “High” from the Priority Level drop down menu. Then, click on the Update button. <img src="https://imgur.com/ZEfhkr3.png">
+</p>
+<p>
+  
+- Assigned To
+  
+<p>
+Click on “Unassigned” to begin assigning the ticket. <img src="https://imgur.com/kb0Sa81.png">
+</p>
+<p>
+  
+- Assignee
+  
+<p>
+Within the "Assign to a Team" pop up and from the "Assignee" drop down menu choose, “John Doe.” <img src="https://imgur.com/NSMH9CZ.png">
+</p>
+<p>
+
+- Assign
+  
+<p>
+Click on the assign button. <img src="https://imgur.com/J2rRMOX.png">
+</p>
+<p>
+
+- SLA Plan
+  
+<p>
+Update the SLA Plan by first selecting “Default SLA.” <img src="https://imgur.com/pn7CIZL.png">
+</p>
+<p>
+
+- Update SLA Plan
+  
+<p>
+Then, choose “SEV-B” from the SLA Plan drop down menu. Next, click on the Update button. <img src="https://imgur.com/pML9c4j.png">
+</p>
+<p>
+
+- Solve Ticket
+  
+<p>
+From the “Ticket Status” drop down menu, change the ticket status to “Resolved.” Then, click on the Post Reply button. <img src="https://imgur.com/W6u1sho.png">
+</p>
+<p>
+
+- Sev-C Example (Grace Period: 8 hours, Schedule: Business Hours) - Department Hardware Refresh Status
+
+- Open a New Ticket
+  
+<p>
+Click the “Open a New Ticket” button. <img src="https://imgur.com/lHFpRUN.png">
+</p>
+<p>
+
+- Contact Information
+  
+<p>
+In the Email Address section, add End User (customer) Karen’s email address: "Karen@osticket.com." <img src="https://imgur.com/KheEwd5.png">
+</p>
+<p>
+
+- Help Topic
+  
+<p>
+Select Help Topic: “General Inquiry” from the Help Topic's drop down menu. <img src="https://imgur.com/vUDrs6d.png">
+</p>
+<p>
+
+- Create Ticket
+  
+<p>
+Click the create ticket button. <img src="https://imgur.com/NiRobOd.png">
+</p>
+<p>
+
+- Triage Ticket
+  
+<p>
+Start the ticket triage process by assigning a level of priority to Karen’s ticket. Due to the nature of this ticket, “department hardware refresh status” the ticket needs to be changed from “Normal” and updated to “Low.” 
+</p>
+<p>
+
+- Priority
+  
+<p>
+Click on “Normal” to begin updating the priority level. <img src="https://imgur.com/aa7vHDe.png">
+</p>
+<p>
+
+- Priority Level
+  
+<p>
+Select “Low” from the Priority Level drop down menu. Then, click on the Update button. <img src="https://imgur.com/W4yFfOZ.png">
+</p>
+<p>
+
+- Assigned To
+  
+<p>
+Click on “Unassigned” to begin assigning the ticket. <img src="https://imgur.com/ZL3qqnS.png">
+</p>
+<p>
+
+- Assignee
+  
+<p>
+Within the “Assign to a Team” pop up and from the “Assignee” drop down menu choose, “Jane Doe.” <img src="https://imgur.com/7FK4cg3.png">
+</p>
+<p>
+
+- Assign
+  
+<p>
+Click on the Assign button. <img src="https://imgur.com/5nLSrrZ.png">
+</p>
+<p>
+
+- SLA Plan
+  
+<p>
+Update the SLA Plan by first selecting “Default SLA.” <img src="https://imgur.com/0O0hB3v.png">
+</p>
+<p>
+
+- Update SLA Plan
+  
+<p>
+Then, choose “SEV-C” from the SLA Plan's drop down menu. Then, click on the Update button. <img src="https://imgur.com/ME3HHby.png">
+
+</p>
+<p>
+
+- Solve Ticket
+  
+<p>
+From the “Ticket Status” drop down menu, change the ticket status to “Resolved.” Next, click on the Post Reply button. <img src="https://imgur.com/PRwV7Vn.png">
+</p>
+<p>
