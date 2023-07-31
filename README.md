@@ -6,6 +6,13 @@
 
 This tutorial outlines osTicket: ticket lifecycle examples of the open-source help desk ticketing system osTicket.<br />
 
+<h2>Ticket Lifecycle Stages</h2>
+
+- Intake
+- Assignment and Communication
+- Working the Issue
+- Resolution
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
